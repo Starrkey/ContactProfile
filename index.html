@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/fce12d2046.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="header" class="section1">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <p class="dire">Dire</p>
+                    <p class="starr">Starr</p>
+                </div>
+                <ul id="sidemenu" class="hidden">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-burger"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI <i class="fa-solid fa-laptop-code"></i> UX Designer</p>
+                <h1>Hi, I'm <span class="styled-text" tooltip="don't touch me">Dire<span
+                            class="part2">Starr</span></span><br>from Hell
+                </h1>
+            </div>
+        </div>
+    </section>
+    <!-- ----------------------about-------------- -->
+    <section id="about" class="section2">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./Images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About</h1>
+                    <p>I love lots of things about life, one of them being making cool website designs. I've had years
+                        of experience put into studying people and their preferences, which gives me confidence in my
+                        skills as well as motivation to make the client's experience as valuable and unique as possible.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2020 - Current</span><br>Freelancer</li>
+                            <li><span>2017 - 2020</span><br>Founder at Neon LTD.</li>
+                            <li><span>2015 - 2017</span><br>Founder at SMG LLC.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2015 - Current</span><br>Studying online on various platforms.</li>
+                            <li><span>2014 - 2015</span><br>Information Technologies at ISU.</li>
+                            <li><span>2012 - 2014</span><br>Information Technologies at TSU.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------------------------------Services--------------------- -->
+    <section id="services" class="section3">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>UI/UX Design</h2>
+                    <p>refers to the process of designing the interface and user experience of a digital product,
+                        such as a
+                        website or mobile app, to ensure that it is intuitive, user-friendly, and meets the needs of the
+                        target audience.
+                    </p>
+                    <a href="https://www.google.com/search?q=what+is+UI/UX+Design"><i class="fa-solid fa-link"></i>
+                        Learn
+                        More</a>
+                </div>
+                <div>
+                    <h2>Web Design</h2>
+                    <p>refers to the process of creating visually appealing and functional websites that
+                        effectively communicate a message or achieve a specific goal.
+                    </p>
+                    <a href="https://www.google.com/search?q=what+is+Web+Design"><i class="fa-solid fa-link"></i> Learn
+                        More</a>
+                </div>
+                <div>
+                    <h2>App Design</h2>
+                    <p>refers to the process of creating the visual and interactive elements of a mobile
+                        application, such as the user
+                        interface, icons, typography, and navigation, to create a seamless and engaging user experience.
+                    </p>
+                    <a href="https://www.google.com/search?q=what+is+App+Design"><i class="fa-solid fa-link"></i> Learn
+                        More</a>
+                </div>
+                <div>
+                    <h2>API Integration</h2>
+                    <p>refers to the process of connecting two or more software systems through their Application
+                        Programming Interfaces (APIs)
+                        to enable them to exchange data and functionality seamlessly.
+                    </p>
+                    <a href="https://www.google.com/search?q=what+is+API+Integration"><i class="fa-solid fa-link"></i>
+                        Learn
+                        More</a>
+                </div>
+                <div>
+                    <h2>Data Science
+                    </h2>
+                    <p>Data science is a field that uses statistics and computers to learn from data. It uses techniques
+                        like data mining,
+                        machine learning, and statistical analysis to find patterns and make predictions. This helps
+                        solve problems in different
+                        industries.
+                    </p>
+                    <a href="https://www.google.com/search?q=what+is+Data+Science"><i class="fa-solid fa-link"></i>
+                        Learn
+                        More</a>
+                </div>
+                <div>
+                    <h2>Product Promotion</h2>
+                    <p>is understanding customer needs and preferences to promote products or
+                        services through
+                        advertising, sales promotions, and digital marketing. The aim is to attract customers, build
+                        brand awareness, and drive
+                        sales and revenue for a business.
+                    </p>
+                    <a href="https://www.google.com/search?q=what+is+Product+Promotion"><i class="fa-solid fa-link"></i>
+                        Learn
+                        More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- -----------------------------portfolio---------------------- -->
+    <section id="portfolio" class="section4">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./Images/work-1.png">
+                    <div class="layer">
+                        <h3>Margus</h3>
+                        <p>This is a made-up character that I visualised using OpenAI text to image converter.
+                        </p>
+                        <a href="https://www.bluewillow.ai/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Images/work-2.png">
+                    <div class="layer">
+                        <h3>Dayuki</h3>
+                        <p>This is a made-up character that I visualised using OpenAI text to image converter.
+                        </p>
+                        <a href="https://www.bluewillow.ai/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Images/work-3.png">
+                    <div class="layer">
+                        <h3>Royo</h3>
+                        <p>This is a made-up character that I visualised using OpenAI text to image converter.
+                        </p>
+                        <a href="https://www.bluewillow.ai/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 
+    ----------------------contact-------------------- -->
+
+    <section id="contact" class="section5">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact</h1>
+                    <p><i class="fa-solid fa-square-arrow-up-right"></i> DireStarr.mail@gmail.com
+                    </p>
+                    <p><i class="fa-solid fa-phone"></i> +0123456789</p>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name-column" placeholder="Your Name" required>
+                        <input type="email" name="Email-column" placeholder="Your Email" required>
+                        <textarea name="Message-column" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">Send us a message</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzQP5X4iGNqwtkBAfx6o9nGu4K0dilgZmURbtlu1RsVPADJqX-G73BQUBePcKN6Rhdl/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msgEl = document.getElementById("msg"); form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) }).then(response => {
+                msg.innerHTML = "Thank you for reaching out"
+                setTimeout(function () {
+                    msg.innerHTML = "";
+                }, 5000)
+                form.reset();
+            }).catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
